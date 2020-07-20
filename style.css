@@ -1,0 +1,25 @@
+body {
+   margin: 0px;
+   background-color: #0a8632;
+}
+
+#default {
+   width:150px;
+   text-align:center;
+   font-family: Helvetica, Arial, sans-serif;
+}
+
+h4 {
+   font-size: 18px;
+   margin: 0px;
+}
+
+a {
+   font-size: 18px;
+   text-decoration: none;
+   color: rgb(11, 95, 11);
+}
+
+a:visited {
+   color: rgb(10, 59, 10);
+}

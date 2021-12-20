@@ -1,11 +1,11 @@
 # Auto-Like
 Extensão do Chrome para dar like automáticamente nos vídeos de um canal do Youtube.
 
-Curte os vídeos do canal do Paulo Momento automaticamente.
+Curte os vídeos do canal automaticamente.
 
 Sobre: 
 
-Paulo Momento - AutoLike é uma extensão que tem como objetivo curtir os vídeos de um canal específico enquanto o mesmo é assistido, 
+AutoLike é uma extensão que tem como objetivo curtir os vídeos de um canal específico enquanto o mesmo é assistido, 
 ela automatiza o processo de dar o gostei nos vídeos que muitas vezes é esquecido e que impede conteúdos relevantes de serem disseminados.
 
 Pontos Relevantes:

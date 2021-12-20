@@ -1,11 +1,11 @@
 {
     "manifest_version": 2,
     "version": "1.0.0",
-    "name": "Paulo Momento - AutoLike",
+    "name": "AutoLike",
     "description": "Extensão para curtir os vídeos automáticamente",
-    "author": "Gilson Meira - Visibil Tecnologia",
+    "author": "",
     "browser_action": {
-   	 "default_title": "Paulo Momento - AutoLike",
+   	 "default_title": "",
    	 "default_popup": "index.html",
    	 "default_icon": "icon.png"
     },

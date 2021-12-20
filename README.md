@@ -28,3 +28,5 @@ então é necessário que ao instalar esta extensão você esteja ciente que o p
 
 Não capturamos dados e nem mesmo monitoramos os mesmos, a extensão não tem comunicação nenhuma com servidores remotos ou qualquer artefato do tipo, 
 tudo é executado de forma local, sem interferências externa.
+
+OBS: O projeto foi desenvolvido com objetivo para criação de uma extenção, nesse cenário é obrigatório disponibilizar um arquivo de icone, esse icone é referenciado no arquivo manifest.json

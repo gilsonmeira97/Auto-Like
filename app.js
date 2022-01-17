@@ -1,10 +1,9 @@
-let lastTitle = "";
+let lastTitle = '';
 let channel = '' //Name of the channel 
 
 function addLike(url) {  
 		let title = document.querySelector("#container > h1").textContent
 		if( lastTitle != title ) {
-			console.log('executou!!!')
 		     	let isName = document.querySelector("#text > a").textContent == channel; 
 			let isLiked = document.querySelector("#top-level-buttons-computed  #button.style-scope.yt-icon-button").getAttribute('aria-pressed') == 'true'; 
 			if( isName && !isLiked){ 

@@ -1,32 +1,34 @@
 # Auto-Like
-Extensão do Chrome para dar like automáticamente nos vídeos de um canal do Youtube.
+Chrome extension to automatically like videos from a Youtube channel.
 
-Curte os vídeos do canal automaticamente.
 
-Sobre: 
+About: 
 
 AutoLike é uma extensão que tem como objetivo curtir os vídeos de um canal específico enquanto o mesmo é assistido, 
-ela automatiza o processo de dar o gostei nos vídeos que muitas vezes é esquecido e que impede conteúdos relevantes de serem disseminados.
+This is an extension that aims to enjoy the videos of a specific channel while watching it,
+automates the process of liking videos that are often forgotten and that hamper the dissemination of the video.
 
-Pontos Relevantes:
+Relevant Details:
 
- 1 - Curte os vídeos do canal automaticamente (A extensão não te impede de remover o "Gostei" do vídeo ou de dar um "Não gostei").
- 2 -  Você estará ajudando a pequenos canais do Youtube a levar seu conteúdo para mais pessoas.
+ 1 - Like channel videos automatically (The extension does not prevent you from removing the "Like" from the video or giving a "Dislike").
+ 2 - You will be helping small YouTube channels to get their content to more people.
 
-O plugin permite você automatize uma tarefa e para isso ele manipula os elementos da página do Youtube, 
-perceba que o mesmo não insere nenhum dado adicional ou altera algum dado já existente na plataforma, 
-apenas executa uma função que já é disponibilizada pela própria plataforma, mas que muitas vezes não é utilizada.
-
-É gratuito para baixar e você estará ajudando canais do seu gosto a crescer.
-
-
-Permissões e Privacidade: 
+The plugin allows you to automate a task and for that it manipulates the elements of the Youtube page,
+note that it does not insert any additional data or change any data that already exists on the platform,
+it just executes a function that is already available by the platform itself, but that is often not used.
 
 
-Por ter necessidade de manipular elementos dentro da página do Youtube precisamos de permissões para isso, 
-então é necessário que ao instalar esta extensão você esteja ciente que o plugin estará fazendo isso.
+Permissions and Privacy: 
 
-Não capturamos dados e nem mesmo monitoramos os mesmos, a extensão não tem comunicação nenhuma com servidores remotos ou qualquer artefato do tipo, 
-tudo é executado de forma local, sem interferências externa.
+Because we need to manipulate elements within the Youtube page, we need permissions for that,
+so it is necessary that when installing this extension you are aware that the plugin will be doing this.
 
-OBS: O projeto foi desenvolvido com objetivo para criação de uma extenção, nesse cenário é obrigatório disponibilizar um arquivo de icone, esse icone é referenciado no arquivo manifest.json
+We don't capture data and we don't even monitor them, the extension doesn't have any communication with remote servers or any artifact of the type,
+everything is executed locally, without external interference.
+
+NOTE: The project was developed with the objective of creating an extension, in this scenario it is mandatory to provide an icon file, this icon is referenced in the manifest.json file
+
+How to use: 
+1 - Add an icon file in the folder and add the channel name in the app.js file
+2 - Go to chrome extension pages(chrome://extensions/) and enable developer mode.
+3 - Click the 'load unpacked' button and select the folder where you have been cloned the project

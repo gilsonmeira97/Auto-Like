@@ -1,20 +1,22 @@
-let statusURL = "";
-function addLike(url) {  
-		if( statusURL != window.location.href ) {
-			setTimeout( e => {
-				let canal = 'Digite aqui o nome do canal'
-			     	let isName = document.querySelector("#text > a").textContent == canal; 
-				let isLiked = document.querySelector("#top-level-buttons > ytd-toggle-button-renderer.style-scope.ytd-menu-renderer.force-icon-button.style-default-active"); 
-				if( isName && !isLiked){ 
-					document.querySelector("#top-level-buttons > ytd-toggle-button-renderer:nth-child(1)").click(); 
-				} 
+let lastTitle = "";
+let channel = '' //Name of the channel 
 
-			},5000)
-			statusURL = url;
+function addLike(url) {  
+		let title = document.querySelector("#container > h1").textContent
+		if( lastTitle != title ) {
+			console.log('executou!!!')
+		     	let isName = document.querySelector("#text > a").textContent == channel; 
+			let isLiked = document.querySelector("#top-level-buttons-computed  #button.style-scope.yt-icon-button").getAttribute('aria-pressed') == 'true'; 
+			if( isName && !isLiked){ 
+				document.querySelector("#top-level-buttons-computed  #button.style-scope.yt-icon-button").click();
+			} 
+
+			/*
+			    This is used to ensure that setTimeout is only used once, note that the 'transition' 
+			    event is fired multiple times as the page loads
+			*/
+			lastTitle = title; 
 		}; 
 	 };
 
-(document.body || document.documentElement).addEventListener('transitionend',
-  	function(/*TransitionEvent*/ event) {
-        	addLike(window.location.href);
-	}, true);
+document.body.addEventListener('transitionend', addLike, true);
